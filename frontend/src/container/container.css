@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ------------ pour les inputs  ------------  */
+
+#inflation_data,#inflation_date, #country_name {
+  margin: 2em;
+}
+
+/* .submbit_button{
+  justify-content: right; 
+} */
+
+.Section_Infla{
+  background-color: #0EA0A7;
+}
+
+.mt-5{
+  text-align: center;
+  color: white;
+  margin-bottom: 1em;
+}
+.spacing{
+  width: 5em;
+  height: 5em;
+}
+
+.submbit_button,
+button {
+  /* color:white; */
+  text-align: center;
+  color: white;
+  background-color: rgb(10, 115, 120);
+  border: solid;
+  border: 2px;
+}
+
+.submbit_button:hover,
+button:hover {
+  /* background-color: #436DBC; */
+  background-color: rgb(10, 115, 120);
+  /* zoom:; */
+  /* L'image est grossie de 10% */
+  -webkit-transform: scale(1.10);
+  /* Safari et Chrome */
+  -moz-transform: scale(1.10);
+  /* Firefox */
+  -ms-transform: scale(1.10);
+  /* Internet Explorer 9 */
+  -o-transform: scale(1.10);
+  /* Opera */
+  transform: scale(1.10);
+}
+
+
+#Convertt {
+  color: black;
+}
+
+#ButtonAPI {
+  margin: 1.2em;
+}
+
+#ConvertOne {
+  margin: 1.2em;
+}
+
+
+
+/* 
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+} */
